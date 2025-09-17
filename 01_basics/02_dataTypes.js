@@ -16,10 +16,37 @@ let state=null
 //undefined => value not assigned
 //symbol=> unique
 
-
+const id=Symbol('123')
+const anotherId=Symbol('123')
+console.log(id==anotherId);
 //object
 
 console.log(typeof age);
 console.log(typeof null);//object
 console.log(typeof undefined);//undefined
+
+//array
+const names=["ved","addbc","ansh"]
+
+//object
+let myObj={
+    name: "Ved",
+    age : 12
+}
+
+// function
+const myFunction=function(){
+    console.log("Hello world");
+}
+console.log(myObj);
+console.log(typeof myFunction);
+console.log(names);
+
+// **************************************************
+
+//Memory
+//Stack(Primitive),Heap(Non-Primitive)
+
+
+
 
